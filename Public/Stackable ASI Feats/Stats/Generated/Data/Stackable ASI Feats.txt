@@ -1,0 +1,57 @@
+
+new entry "Actor"
+type "PassiveData"
+using "Actor"
+data "Description" "hc318080ag30dfg48beg8202g73d183fcaa0f"
+data "DescriptionParams" "1"
+data "Boosts" "ProficiencyBonus(Skill,Deception);ExpertiseBonus(Deception);ProficiencyBonus(Skill,Performance);ExpertiseBonus(Performance);Ability(Charisma, 1)"
+
+new entry "Durable"
+type "PassiveData"
+using "Durable"
+data "Description" "hc61ac7a2ga9dbg4d97g93e6g908c937d6f2d"
+data "DescriptionParams" "1"
+data "Boosts" "Ability(Constitution,1)"
+
+new entry "HeavilyArmored"
+type "PassiveData"
+using "HeavilyArmored"
+data "Description" "h07e53b1fgf318g4509gab84gc41b9a1816d0"
+data "DescriptionParams" "1"
+data "Boosts" "Ability(Strength, 1);Proficiency(HeavyArmor)"
+
+new entry "HeavyArmorMaster"
+type "PassiveData"
+using "HeavyArmorMaster"
+data "Description" "h0af8660cg2aecg4aeegb00dgc5fbb27084f8"
+data "Boosts" "Ability(Strength, 1); IF(HasHeavyArmor() and not HasDamageEffectFlag(DamageFlags.Magical)):DamageReduction(Slashing, Flat, 3); IF(HasHeavyArmor() and not HasDamageEffectFlag(DamageFlags.Magical)):DamageReduction(Bludgeoning, Flat, 3); IF(HasHeavyArmor() and not HasDamageEffectFlag(DamageFlags.Magical)):DamageReduction(Piercing, Flat, 3)"
+
+new entry "Resilient_Strength"
+using "Resilient_Strength"
+type "PassiveData"
+data "Boosts" "Ability(Strength,1);ProficiencyBonus(SavingThrow,Strength)"
+
+new entry "Resilient_Dexterity"
+type "PassiveData"
+using "Resilient_Dexterity"
+data "Boosts" "Ability(Dexterity,1);ProficiencyBonus(SavingThrow,Dexterity)"
+
+new entry "Resilient_Constitution"
+type "PassiveData"
+using "Resilient_Constitution"
+data "Boosts" "Ability(Constitution,1);ProficiencyBonus(SavingThrow,Constitution)"
+
+new entry "Resilient_Wisdom"
+type "PassiveData"
+using "Resilient_Wisdom"
+data "Boosts" "Ability(Wisdom,1);ProficiencyBonus(SavingThrow,Wisdom)"
+
+new entry "Resilient_Intelligence"
+type "PassiveData"
+using "Resilient_Intelligence"
+data "Boosts" "Ability(Intelligence,1);ProficiencyBonus(SavingThrow,Intelligence)"
+
+new entry "Resilient_Charisma"
+type "PassiveData"
+using "Resilient_Charisma"
+data "Boosts" "Ability(Charisma,1);ProficiencyBonus(SavingThrow,Charisma)"
