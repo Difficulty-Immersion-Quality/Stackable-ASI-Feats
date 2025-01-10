@@ -44,10 +44,10 @@
 
 
 	-- Tavern Brawler
-	<content contentuid="hcf812bb0ga2b3g4adcg9720g1aff527e4061" version="1">When you make an unarmed attack, use an improvised weapon, or throw something, your Strength &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; is added to the damage and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.</content>
+	<content contentuid="hcf812bb0ga2b3g4adcg9720g1aff527e4061" version="1">When you make an unarmed attack, use an improvised weapon, or throw something, your Strength &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; is added to the damage and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; increases by 1.</content>
 	<content contentuid="h2ed58cefgde7fg4da4ga6c6g7a661417727f" version="1">When you make an unarmed attack, use an improvised weapon, or throw something, your Strength &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; is added to the damage and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="h35415ceegde76g4855gada0g2cc72fa2971c" version="1">Tavern Brawler: Strength</content>
-	<content contentuid="hefbbed5ega098g4baaga190g0697d83b64e3" version="1">Tavern Brawler: Dexterity</content>
+	<content contentuid="hefbbed5ega098g4baaga190g0697d83b64e3" version="1">Tavern Brawler: Constitution</content>
 
 
 	-- Weapon Master
@@ -63,4 +63,5 @@
 	-- Shared
 	<content contentuid="hf51dd462gb417g4b3bg9abegb841dfb988a7" version="1">Increase your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; by [1].</content>
 	<content contentuid="h1c4db49egc213g4be2g843dga5c4a9b3389c" version="1">Increase your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; by [1].</content>
+	<content contentuid="hb170185dgfe7ag40ecg8422g0b7f140eef9a" version="1">Increase your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; by [1].</content>
 </contentList>

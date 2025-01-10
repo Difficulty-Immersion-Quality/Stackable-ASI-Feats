@@ -21,7 +21,7 @@
                 </node>
                 <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="Tavern Brawler ASI Passives"/>
-                    <attribute id="Passives" type="LSString" value="TavernBrawler_Strength,TavernBrawler_Dexterity"/>
+                    <attribute id="Passives" type="LSString" value="TavernBrawler_Strength,TavernBrawler_Constitution"/>
                     <attribute id="UUID" type="guid" value="646cfe17-932f-405f-8f23-e7b80b2a7b0b"/>
                 </node>
                 <node id="PassiveList">

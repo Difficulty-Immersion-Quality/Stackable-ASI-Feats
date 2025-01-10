@@ -246,16 +246,16 @@ data "Icon" "GenericIcon_Intent_Buff"
 data "Properties" "IsHidden"
 data "Boosts" "Ability(Strength, 1)"
 
-new entry "TavernBrawler_Dexterity"
+new entry "TavernBrawler_Constitution"
 type "PassiveData"
-// Tavern Brawler: Dexterity
+// Tavern Brawler: Constitution
 data "DisplayName" "hefbbed5ega098g4baaga190g0697d83b64e3;1"
-// Your Dexterity is increased by [1].
-data "Description" "h1c4db49egc213g4be2g843dga5c4a9b3389c;1"
+// Your Constitution is increased by [1].
+data "Description" "hb170185dgfe7ag40ecg8422g0b7f140eef9a;1"
 data "DescriptionParams" "1"
 data "Icon" "GenericIcon_Intent_Buff"
 data "Properties" "IsHidden"
-data "Boosts" "Ability(Dexterity, 1)"
+data "Boosts" "Ability(Constitution, 1)"
 
 // ==================================== Resilient ====================================
 
