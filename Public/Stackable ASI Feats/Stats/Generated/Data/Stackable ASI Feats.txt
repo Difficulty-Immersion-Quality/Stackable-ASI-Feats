@@ -134,7 +134,7 @@ using "LightlyArmored"
 data "Description" "h4d0cb7fegcbcdg42c6g8ff2g1cc6e0a22269;1"
 data "Boosts" "Ability(Dexterity, 1);Proficiency(LightArmor)"
 
-// ==================================== Lightly Armoured ====================================
+// ==================================== Moderately Armoured ====================================
 
 //new entry "ModeratelyArmored"
 //type "PassiveData"
@@ -161,6 +161,24 @@ using "ModeratelyArmored"
 data "Description" "he3f16e43g6666g44eeg89e8ge2790e9930ad;1"
 data "DescriptionParams" "1"
 data "Boosts" "Ability(Dexterity, 1);Proficiency(MediumArmor);Proficiency(Shields)"
+
+// ==================================== Performer ====================================
+
+//new entry "Performer"
+//type "PassiveData"
+// Performer
+//data "DisplayName" "h825e990bg5973g4c90g885eg689e928e2d92;2"
+// You know how to play musical instruments.
+//data "Description" "h3e5b9db9g8cc9g4cd3g98f1gdaaeb98ca036;1"
+//data "Properties" "IsHidden"
+//data "Boosts" "Proficiency(MusicalInstrument)"
+
+new entry "Performer"
+type "PassiveData"
+using "Performer"
+// Your Charisma is increased by [1] and you know how to play musical instruments.
+data "Description" "h52e498aegb686g4c5fgb400g18d6ac8c6886;1"
+data "Boosts" "Ability(Charisma, 1);Proficiency(MusicalInstrument)"
 
 // ==================================== Resilient ====================================
 
