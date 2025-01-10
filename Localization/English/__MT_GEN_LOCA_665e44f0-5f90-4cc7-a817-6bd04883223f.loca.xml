@@ -6,7 +6,7 @@
 
 
 	-- Athlete
-	<content contentuid="hb0294ccegb0e4g4db5gad8cgc4c160628fef" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1. &lt;br&gt;&lt;br&gt;When you are Prone, standing up uses significantly less movement. Your &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance also increases by 50%.</content>
+	<content contentuid="hb0294ccegb0e4g4db5gad8cgc4c160628fef" version="1">When you are Prone, standing up uses significantly less movement. Your &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance also increases by 50%. &lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.</content>
 	<content contentuid="he971c481g02e1g4fcag8221g934b55cf94be" version="1">When you are &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, standing up uses only [1] of your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;. Your &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance is increased by 50%.</content>
 	<content contentuid="hb4fa3f4eg6569g4ee3g83aag1950b06c40f3" version="1">Athlete: Strength</content>
 	<content contentuid="h6d5d9846g2fafg4d64ga086gad1d2b694103" version="1">Athlete: Dexterity</content>
@@ -61,6 +61,6 @@
 
 
 	-- Shared
-	<content contentuid="hf51dd462gb417g4b3bg9abegb841dfb988a7" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; is increased by [1].</content>
-	<content contentuid="h1c4db49egc213g4be2g843dga5c4a9b3389c" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; is increased by [1].</content>
+	<content contentuid="hf51dd462gb417g4b3bg9abegb841dfb988a7" version="1">Increase your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; by [1].</content>
+	<content contentuid="h1c4db49egc213g4be2g843dga5c4a9b3389c" version="1">Increase your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; by [1].</content>
 </contentList>
