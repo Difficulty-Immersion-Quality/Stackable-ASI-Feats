@@ -11,7 +11,7 @@
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="Athlete"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Athlete_StandUp"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(fd664d84-4195-435b-8d99-f1c43f9ddba2,1)"/>
                     <attribute id="UUID" type="guid" value="d674aa33-8633-4b67-8623-b6788f0d5fc4"/>
                 </node>
@@ -34,13 +34,13 @@
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="LightlyArmored"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="LightlyArmored"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(8bcb276e-b204-488a-ac3a-8e765c79f2d2,1)"/>
                     <attribute id="UUID" type="guid" value="b441c722-e4d4-4702-861a-039bfd77c124"/>
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="ModeratelyArmored"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="ModeratelyArmored"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;LightArmor&apos;)"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(b0c5c39c-e57d-46ac-a55f-4cd353ba5c8f,1)"/>
                     <attribute id="UUID" type="guid" value="681d5307-f0ed-4c94-8cf0-db0c51116f56"/>

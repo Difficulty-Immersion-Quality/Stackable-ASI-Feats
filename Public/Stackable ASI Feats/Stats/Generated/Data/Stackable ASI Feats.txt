@@ -33,19 +33,30 @@ data "Boosts" "ProficiencyBonus(Skill,Deception);ExpertiseBonus(Deception);Profi
 //data "Properties" "Highlighted"
 //data "Boosts" "JumpMaxDistanceMultiplier(1.5)"
 
-new entry "Athlete_StandUp_Strength"
+new entry "Athlete_StandUp"
 type "PassiveData"
 using "Athlete_StandUp"
-// Your Strength is increased by 1. When you are Prone standing up uses only [1] of your movement speed. Your Jump distance is increased by 50%.
-data "Description" "hb4fa3f4eg6569g4ee3g83aag1950b06c40f3;1"
-data "Boosts" "Ability(Strength, 1);JumpMaxDistanceMultiplier(1.5)"
+// When you are Prone standing up uses only [1] of your movement speed. Your Jump distance is increased by 50%.
+data "Description" "he971c481g02e1g4fcag8221g934b55cf94be;1"
+
+new entry "Athlete_StandUp_Strength"
+type "PassiveData"
+// Athlete: Strength
+data "DisplayName" "hb4fa3f4eg6569g4ee3g83aag1950b06c40f3;1"
+// Your Strength is increased by [1].
+data "Description" "hf51dd462gb417g4b3bg9abegb841dfb988a7;1"
+data "DescriptionParams" "1"
+data "Boosts" "Ability(Strength, 1)"
 
 new entry "Athlete_StandUp_Dexterity"
 type "PassiveData"
-using "Athlete_StandUp"
-// Your Dexterity is increased by 1. When you are Prone standing up uses only [1] of your movement speed. Your Jump distance is increased by 50%.
-data "Description" "h6d5d9846g2fafg4d64ga086gad1d2b694103;1"
-data "Boosts" "Ability(Dexterity, 1);JumpMaxDistanceMultiplier(1.5)"
+// Athlete: Dexterity
+data "DisplayName" "h6d5d9846g2fafg4d64ga086gad1d2b694103;1"
+// Your Dexterity is increased by [1].
+data "Description" "h1c4db49egc213g4be2g843dga5c4a9b3389c;1"
+data "DescriptionParams" "1"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
 
 // ==================================== Durable ====================================
 
@@ -121,18 +132,22 @@ data "Boosts" "Ability(Strength, 1); IF(HasHeavyArmor() and not HasDamageEffectF
 
 new entry "LightlyArmored_Strength"
 type "PassiveData"
-using "LightlyArmored"
-// Your Strength is increased by [1], and you have Armour Proficiency with Light Armour.
-data "Description" "hd29c522ag6dd5g4b11ga405g12755e767639;1"
+// Lightly Armoured: Strength
+data "DisplayName" "hc961c61eged64g4cdegac78gead899f4c561;1"
+// Your Strength is increased by [1].
+data "Description" "hf51dd462gb417g4b3bg9abegb841dfb988a7;1"
 data "DescriptionParams" "1"
-data "Boosts" "Ability(Strength, 1);Proficiency(LightArmor)"
+data "Boosts" "Ability(Strength, 1)"
 
 new entry "LightlyArmored_Dexterity"
 type "PassiveData"
-using "LightlyArmored"
-// Your Dexterity is increased by [1], and you have Armour Proficiency with Light Armour.
-data "Description" "h4d0cb7fegcbcdg42c6g8ff2g1cc6e0a22269;1"
-data "Boosts" "Ability(Dexterity, 1);Proficiency(LightArmor)"
+// Lightly Armoured: Dexterity
+data "DisplayName" "hd4931d2fgadcbg47edga3e7ga9ebde78159f;1"
+// Your Dexterity is increased by [1].
+data "Description" "h1c4db49egc213g4be2g843dga5c4a9b3389c;1"
+data "DescriptionParams" "1"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
 
 // ==================================== Moderately Armoured ====================================
 
@@ -148,19 +163,23 @@ data "Boosts" "Ability(Dexterity, 1);Proficiency(LightArmor)"
 
 new entry "ModeratelyArmored_Strength"
 type "PassiveData"
-using "ModeratelyArmored"
-// Your Strength is increased by [1], and you have Armour Proficiency with Medium Armour and shields.
-data "Description" "hc04ddde6gcf4bg499dga9a5gd7fe6f713135;1"
+// Moderately Armoured: Strength
+data "DisplayName" "hc04ddde6gcf4bg499dga9a5gd7fe6f713135;1"
+// Your Strength is increased by [1].
+data "Description" "hf51dd462gb417g4b3bg9abegb841dfb988a7;1"
 data "DescriptionParams" "1"
-data "Boosts" "Ability(Strength, 1);Proficiency(MediumArmor);Proficiency(Shields)"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
 
 new entry "ModeratelyArmored_Dexterity"
 type "PassiveData"
-using "ModeratelyArmored"
-// Your Dexterity is increased by [1], and you have Armour Proficiency with Medium Armour and shields.
-data "Description" "he3f16e43g6666g44eeg89e8ge2790e9930ad;1"
+// Moderately Armoured: Dexterity
+data "DisplayName" "he3f16e43g6666g44eeg89e8ge2790e9930ad;1"
+// Your Dexterity is increased by [1].
+data "Description" "h1c4db49egc213g4be2g843dga5c4a9b3389c;1"
 data "DescriptionParams" "1"
-data "Boosts" "Ability(Dexterity, 1);Proficiency(MediumArmor);Proficiency(Shields)"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
 
 // ==================================== Performer ====================================
 
@@ -176,8 +195,6 @@ data "Boosts" "Ability(Dexterity, 1);Proficiency(MediumArmor);Proficiency(Shield
 new entry "Performer"
 type "PassiveData"
 using "Performer"
-// Your Charisma is increased by [1] and you know how to play musical instruments.
-data "Description" "h52e498aegb686g4c5fgb400g18d6ac8c6886;1"
 data "Boosts" "Ability(Charisma, 1);Proficiency(MusicalInstrument)"
 
 // ==================================== Tavern Brawler ====================================
@@ -204,7 +221,9 @@ data "Boosts" "Ability(Charisma, 1);Proficiency(MusicalInstrument)"
 //data "StatsFunctors" ""
 
 new entry "TavernBrawler"
-// When you make an unarmed attack, use an improvised weapon, or throw something, your Strength Modifier is added to the damage and Attack Rolls. Your Strength or Dexterity is increased by [1].
+type "PassiveData"
+using "TavernBrawler"
+// When you make an unarmed attack, use an improvised weapon, or throw something, your Strength Modifier is added to the damage and Attack Rolls.
 data "Description" "h2ed58cefgde7fg4da4ga6c6g7a661417727f;1"
 data "DescriptionParams" "1"
 
@@ -242,16 +261,24 @@ data "Boosts" "Ability(Dexterity, 1)"
 new entry "WeaponMaster_Strength"
 type "PassiveData"
 using "WeaponMaster"
-// You have gained Proficiency with four weapons of your choice, and your Strength is increased by [1].
-data "Description" "hbf0ccfc8g12dfg4c14g81c3gfcf39c51a05f;1"
+// Weapon Master: Strength
+data "DisplayName" "h2e9fed08gaa1cg4030g8e52g8277df34d453;1"
+// Your Strength is increased by [1].
+data "Description" "hf51dd462gb417g4b3bg9abegb841dfb988a7;1"
 data "DescriptionParams" "1"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
 
 new entry "WeaponMaster_Dexterity"
 type "PassiveData"
 using "WeaponMaster"
-// You have gained Proficiency with four weapons of your choice, and your Dexterity is increased by [1].
-data "Description" "h29ec59aegace5g4117gac54g44ad5f458d28;1"
+// Weapon Master: Dexterity
+data "DisplayName" "h64639bf3g722ag4506g90dag74682043bdb2;1"
+// Your Dexterity is increased by [1].
+data "Description" "h1c4db49egc213g4be2g843dga5c4a9b3389c;1"
 data "DescriptionParams" "1"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
 
 // ==================================== Resilient ====================================
 
