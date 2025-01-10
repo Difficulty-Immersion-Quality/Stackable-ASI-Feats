@@ -12,6 +12,13 @@
                     <attribute id="UUID" type="guid" value="18774e39-5d86-4e43-862a-aa4ff69ff24e"/>
                 </node>
                 <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hb0294ccegb0e4g4db5gad8cgc4c160628fef" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h860bd485g72b2g45b8gbad7g02e8f5acdd3e" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="Athlete"/>
+                    <attribute id="FeatId" type="guid" value="d674aa33-8633-4b67-8623-b6788f0d5fc4"/>
+                    <attribute id="UUID" type="guid" value="e5a796ab-3b90-4cd3-8b5a-c3aa5d993833"/>
+                </node>
+                <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="h3434eba2g0663g4a7dgad1cg4b22c935b807" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hbf51f1d9g5fafg40ceg9a6egbff13973f4a7" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="Durable"/>
@@ -19,9 +26,9 @@
                     <attribute id="UUID" type="guid" value="43c5159d-1ba2-400b-8657-805aa84bec04"/>
                 </node>
                 <node id="FeatDescription">
-	                <attribute id="Description" type="TranslatedString" handle="hf0055c48g94ddg4e39g99ffg5bc850eeb596" version="1"/>
-	                <attribute id="DisplayName" type="TranslatedString" handle="h75a791a4g89d7g4796gaa53g2adad2b64396" version="1"/>
-	                <attribute id="ExactMatch" type="FixedString" value="HeavilyArmored"/>
+                    <attribute id="Description" type="TranslatedString" handle="hf0055c48g94ddg4e39g99ffg5bc850eeb596" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h75a791a4g89d7g4796gaa53g2adad2b64396" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="HeavilyArmored"/>
                     <attribute id="FeatId" type="guid" value="7bc235ac-7eeb-49d3-8249-c3313d87af75"/>
                     <attribute id="UUID" type="guid" value="8ee6c346-ccdf-4335-a342-a15261051035"/>
                 </node>
@@ -31,6 +38,13 @@
                     <attribute id="ExactMatch" type="FixedString" value="HeavyArmorMaster"/>
                     <attribute id="FeatId" type="guid" value="0de08fff-ab18-442f-a0b1-f53e7be04c03"/>
                     <attribute id="UUID" type="guid" value="91ab8967-1a89-490b-882c-36b9db4d7ed4"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="ha952c946gada8g4088gbbf5gc39f36716add" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5b629c28ga19fg4f46gb211g0bdef9937471" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="LightlyArmored"/>
+                    <attribute id="FeatId" type="guid" value="b441c722-e4d4-4702-861a-039bfd77c124"/>
+                    <attribute id="UUID" type="guid" value="b12ac1e4-aad8-4cdf-aa22-d92b5757bd50"/>
                 </node>
                 <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="h7fc2132fg7937g4491g8ae1g69387619868b" version="1"/>

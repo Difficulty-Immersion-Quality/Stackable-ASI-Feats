@@ -1,55 +1,230 @@
+// ==================================== Actor ====================================
+
+//new entry "Actor"
+//type "PassiveData"
+// Actor
+//data "DisplayName" "h76bce77ag0b0cg4dd9gba94gee9f60adf26c;2"
+// You have become a true thespian. Your Charisma increases by [1], to a maximum of [2]. Your Proficiency Bonus is doubled for Deception and Performance Checks.
+//data "Description" "hda771f3fg22ebg4abbgb98bg29d12cac62c0;3"
+//data "DescriptionParams" "1;20"
+//data "Icon" "Action_Perform_Voice"
+//data "Properties" "Highlighted"
+//data "Boosts" "ProficiencyBonus(Skill,Deception);ExpertiseBonus(Deception);ProficiencyBonus(Skill,Performance);ExpertiseBonus(Performance);Ability(Charisma, 1)"
 
 new entry "Actor"
 type "PassiveData"
 using "Actor"
-data "Description" "hc318080ag30dfg48beg8202g73d183fcaa0f"
+// You have become a true thespian. Your Charisma increases by [1]. Your Proficiency Bonus is doubled for Deception and Performance Checks.
+data "Description" "hc318080ag30dfg48beg8202g73d183fcaa0f;1"
 data "DescriptionParams" "1"
 data "Boosts" "ProficiencyBonus(Skill,Deception);ExpertiseBonus(Deception);ProficiencyBonus(Skill,Performance);ExpertiseBonus(Performance);Ability(Charisma, 1)"
+
+// ==================================== Athlete ====================================
+
+//new entry "Athlete_StandUp"
+//type "PassiveData"
+// Athlete: Standing Up
+//data "DisplayName" "h77609175g99f7g4e74g9911g20c6033d4b7d;2"
+// When you are Prone, standing up uses only [1] of your movement speed.
+//data "Description" "h4b8451c4g75dbg48adgb3a2g10cfe99f8585;4"
+//data "DescriptionParams" "Distance(1.5)"
+//data "Icon" "PassiveFeature_Athlete_StandUp"
+//data "PriorityOrder" "1"
+//data "Properties" "Highlighted"
+//data "Boosts" "JumpMaxDistanceMultiplier(1.5)"
+
+new entry "Athlete_StandUp_Strength"
+type "PassiveData"
+using "Athlete_StandUp"
+// Your Strength is increased by 1. When you are Prone standing up uses only [1] of your movement speed. Your Jump distance is increased by 50%.
+data "Description" "hb4fa3f4eg6569g4ee3g83aag1950b06c40f3;1"
+data "Boosts" "Ability(Strength, 1);JumpMaxDistanceMultiplier(1.5)"
+
+new entry "Athlete_StandUp_Dexterity"
+type "PassiveData"
+using "Athlete_StandUp"
+// Your Dexterity is increased by 1. When you are Prone standing up uses only [1] of your movement speed. Your Jump distance is increased by 50%.
+data "Description" "h6d5d9846g2fafg4d64ga086gad1d2b694103;1"
+data "Boosts" "Ability(Dexterity, 1);JumpMaxDistanceMultiplier(1.5)"
+
+// ==================================== Durable ====================================
+
+//new entry "Durable"
+//type "PassiveData"
+// Durable
+//data "DisplayName" "h52ed0302g36beg4fb2g917fgc1f62992fbd0;2"
+// You regain full hit points when you Short Rest. Your Constitution score is increased by 1, to a maximum of 20.
+//data "Description" "h71165ff5g7a9bg4779g8c39g4897776fe026;4"
+//data "Icon" "PassiveFeature_Durable"
+//data "Properties" "Highlighted"
+//data "Boosts" "Ability(Constitution,1,20)"
 
 new entry "Durable"
 type "PassiveData"
 using "Durable"
-data "Description" "hc61ac7a2ga9dbg4d97g93e6g908c937d6f2d"
+// You regain full hit points when you take a Short Rest. Your Constitution is increased by [1].
+data "Description" "hc61ac7a2ga9dbg4d97g93e6g908c937d6f2d;1"
 data "DescriptionParams" "1"
 data "Boosts" "Ability(Constitution,1)"
+
+// ==================================== Heavily Armoured ====================================
+
+//new entry "HeavilyArmored"
+//type "PassiveData"
+// Heavily Armoured
+//data "DisplayName" "h68b0e75cg762eg4aa7g8481gf7539227fa68;2"
+// You have Armour Proficiency with Heavy Armour and your Strength increases by 1, to a maximum of 20.
+//data "Description" "h3e3fb217gd9ddg4971ga26dg8eb980341ebd;3"
+//data "Icon" "PassiveFeature_HeavilyArmored"
+//data "Properties" "Highlighted"
+//data "Boosts" "Ability(Strength, 1, 20);Proficiency(HeavyArmor)"
 
 new entry "HeavilyArmored"
 type "PassiveData"
 using "HeavilyArmored"
+// You have Armour Proficiency with Heavy Armour and your Strength is increased by [1].
 data "Description" "h07e53b1fgf318g4509gab84gc41b9a1816d0"
 data "DescriptionParams" "1"
 data "Boosts" "Ability(Strength, 1);Proficiency(HeavyArmor)"
 
+// ==================================== Heavily Armour Master ====================================
+
+//new entry "HeavyArmorMaster"
+//type "PassiveData"
+// Heavy Armour Master
+//data "DisplayName" "h3a9599eegc835g485egb629g31eeadfee623;1"
+// Increase your Strength score by [1] (up to a maximum of [2]), and reduce incoming damage from non-magical attacks by [3].
+//data "Description" "h062e72a8gb2bdg4575g9071g11acf604a776;4"
+//data "DescriptionParams" "1;20;3"
+//data "Icon" "PassiveFeature_HeavyArmorMaster"
+//data "Properties" "Highlighted"
+//data "Boosts" "Ability(Strength, 1, 20); IF(HasHeavyArmor() and not HasDamageEffectFlag(DamageFlags.Magical)):DamageReduction(Slashing, Flat, 3); IF(HasHeavyArmor() and not HasDamageEffectFlag(DamageFlags.Magical)):DamageReduction(Bludgeoning, Flat, 3); IF(HasHeavyArmor() and not HasDamageEffectFlag(DamageFlags.Magical)):DamageReduction(Piercing, Flat, 3)"
+
 new entry "HeavyArmorMaster"
 type "PassiveData"
 using "HeavyArmorMaster"
+// Your Strength is increased by [1]. Incoming damage from non-magical attacks is reduced by [3] while you're wearing heavy armour.
 data "Description" "h0af8660cg2aecg4aeegb00dgc5fbb27084f8"
 data "Boosts" "Ability(Strength, 1); IF(HasHeavyArmor() and not HasDamageEffectFlag(DamageFlags.Magical)):DamageReduction(Slashing, Flat, 3); IF(HasHeavyArmor() and not HasDamageEffectFlag(DamageFlags.Magical)):DamageReduction(Bludgeoning, Flat, 3); IF(HasHeavyArmor() and not HasDamageEffectFlag(DamageFlags.Magical)):DamageReduction(Piercing, Flat, 3)"
+
+// ==================================== Lightly Armoured ====================================
+
+//new entry "LightlyArmored"
+//type "PassiveData"
+// Lightly Armoured
+//data "DisplayName" "h866b6355g682cg4415g8048gd8097dde30a6;2"
+// You have Armour Proficiency with Light Armour.
+//data "Description" "h93762a30g66b3g4832gbf74ga7ba9930ea8c;3"
+//data "Icon" "PassiveFeature_LightlyArmored"
+//data "Properties" "Highlighted"
+//data "Boosts" "Proficiency(LightArmor)"
+
+new entry "LightlyArmored_Strength"
+type "PassiveData"
+using "LightlyArmored"
+// You have Armour Proficiency with Light Armour.
+data "Description" "hd29c522ag6dd5g4b11ga405g12755e767639;1"
+data "Boosts" "Ability(Strength, 1);Proficiency(LightArmor)"
+
+new entry "LightlyArmored_Dexterity"
+type "PassiveData"
+using "LightlyArmored"
+// You have Armour Proficiency with Light Armour.
+data "Description" "h4d0cb7fegcbcdg42c6g8ff2g1cc6e0a22269;1"
+data "Boosts" "Ability(Dexterity, 1);Proficiency(LightArmor)"
+
+// ==================================== Resilient ====================================
+
+//new entry "Resilient_Strength"
+//type "PassiveData"
+// Resilient: Strength
+//data "DisplayName" "h95f4f93bg4faag4e49ga731g11a45c7c0e37;1"
+// Increase your Strength by [1] and gain Proficiency in Strength Saving Throws.
+//data "Description" "h3044f5c4g001ag4c02g9d49g7155c08287c7;2"
+//data "DescriptionParams" "1"
+//data "Icon" "PassiveFeature_Resilient"
+//data "Properties" "Highlighted"
+//data "Boosts" "Ability(Strength,1,20);ProficiencyBonus(SavingThrow,Strength)"
 
 new entry "Resilient_Strength"
 using "Resilient_Strength"
 type "PassiveData"
 data "Boosts" "Ability(Strength,1);ProficiencyBonus(SavingThrow,Strength)"
 
+//new entry "Resilient_Dexterity"
+//type "PassiveData"
+// Resilient: Dexterity
+//data "DisplayName" "haea55019g07bfg4881g8512geddd2045684c;1"
+// Increase your Dexterity by [1] and gain Proficiency in Dexterity Saving Throws.
+//data "Description" "h0611a318g41cdg4356ga7bcgf148a0af56bc;2"
+//data "DescriptionParams" "1"
+//data "Icon" "PassiveFeature_Resilient"
+//data "Properties" "Highlighted"
+//data "Boosts" "Ability(Dexterity,1,20);ProficiencyBonus(SavingThrow,Dexterity)"
+
 new entry "Resilient_Dexterity"
 type "PassiveData"
 using "Resilient_Dexterity"
 data "Boosts" "Ability(Dexterity,1);ProficiencyBonus(SavingThrow,Dexterity)"
+
+//new entry "Resilient_Constitution"
+//type "PassiveData"
+// Resilient: Constitution
+//data "DisplayName" "hf6c75e81g7f4cg4145ga8ebg5afead46df15;1"
+// Increase your Constitution by [1] and gain Proficiency in Constitution Saving Throws.
+//data "Description" "h2cf494f7gb77ag4101g824cg1884ce1b92b6;2"
+//data "DescriptionParams" "1"
+//data "Icon" "PassiveFeature_Resilient"
+//data "Properties" "Highlighted"
+//data "Boosts" "Ability(Constitution,1,20);ProficiencyBonus(SavingThrow,Constitution)"
 
 new entry "Resilient_Constitution"
 type "PassiveData"
 using "Resilient_Constitution"
 data "Boosts" "Ability(Constitution,1);ProficiencyBonus(SavingThrow,Constitution)"
 
+//new entry "Resilient_Wisdom"
+//type "PassiveData"
+// Resilient: Wisdom
+//data "DisplayName" "h66dd16a0g4ee7g45e1gbfaeg9d965989234a;1"
+// Increase your Wisdom by [1] and gain Proficiency in Wisdom Saving Throws.
+//data "Description" "hcc780621gd48bg4d16g9cc0gc981c4499698;2"
+//data "DescriptionParams" "1"
+//data "Icon" "PassiveFeature_Resilient"
+//data "Properties" "Highlighted"
+//data "Boosts" "Ability(Wisdom,1,20);ProficiencyBonus(SavingThrow,Wisdom)"
+
 new entry "Resilient_Wisdom"
 type "PassiveData"
 using "Resilient_Wisdom"
 data "Boosts" "Ability(Wisdom,1);ProficiencyBonus(SavingThrow,Wisdom)"
 
+//new entry "Resilient_Intelligence"
+//type "PassiveData"
+// Resilient: Intelligence
+//data "DisplayName" "hf5f28ce7g85dfg40b0g9078gbed930c92a6a;1"
+// Increase your Intelligence by [1] and gain Proficiency in Intelligence Saving Throws.
+//data "Description" "h05da96c6g04a7g4e40g9adag7bb9bd67f91b;2"
+//data "DescriptionParams" "1"
+//data "Icon" "PassiveFeature_Resilient"
+//data "Properties" "Highlighted"
+//data "Boosts" "Ability(Intelligence,1,20);ProficiencyBonus(SavingThrow,Intelligence)"
+
 new entry "Resilient_Intelligence"
 type "PassiveData"
 using "Resilient_Intelligence"
 data "Boosts" "Ability(Intelligence,1);ProficiencyBonus(SavingThrow,Intelligence)"
+
+//new entry "Resilient_Charisma"
+//type "PassiveData"
+// Resilient: Charisma
+//data "DisplayName" "h0d31ee79g7041g4b20g8e33g8ac34f362229;2"
+// Increase your Charisma by [1] and gain Proficiency in Charisma Saving Throws.
+//data "Description" "h9fda9110g06ccg4c82ga716g35adc054a77a;3"
+//data "DescriptionParams" "1"
+//data "Icon" "PassiveFeature_Resilient"
+//data "Properties" "Highlighted"
+//data "Boosts" "Ability(Charisma,1,20);ProficiencyBonus(SavingThrow,Charisma)"
 
 new entry "Resilient_Charisma"
 type "PassiveData"
