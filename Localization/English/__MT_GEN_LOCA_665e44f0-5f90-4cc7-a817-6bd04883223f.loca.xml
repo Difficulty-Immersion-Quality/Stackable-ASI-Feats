@@ -55,7 +55,7 @@
 
 
 	-- Weapon Master
-	<content contentuid="h21934d01g9001g4275gaafegcff1938c27b3" version="4">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with four weapons of your choice, and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.</content>
+	<content contentuid="h21934d01g9001g4275gaafegcff1938c27b3" version="1">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with four weapons of your choice, and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.</content>
 	<content contentuid="hbf0ccfc8g12dfg4c14g81c3gfcf39c51a05f" version="1">You have gained &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with four weapons of your choice, and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; is increased by [1].</content>
 	<content contentuid="h29ec59aegace5g4117gac54g44ad5f458d28" version="1">You have gained &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with four weapons of your choice, and your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; is increased by [1].</content>
 

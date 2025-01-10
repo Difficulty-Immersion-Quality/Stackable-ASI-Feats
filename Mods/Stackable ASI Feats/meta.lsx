@@ -8,7 +8,7 @@
         <node id="ModuleInfo">
           <attribute id="Author" type="LSString" value="Goonsack" />
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
-          <attribute id="Description" type="LSString" value="Allows feats granting ability score increases through passives to scale beyond 20." />
+          <attribute id="Description" type="LSString" value="Allows Feats, both vanilla passive selectors and ASI selectors to go beyond the ability score cap of 20. Turns ASI Feats into passive selectors to make them selectable even when the available stat choices are capped." />
           <attribute id="Folder" type="LSString" value="Stackable ASI Feats" />
           <attribute id="GMTemplate" type="FixedString" value="" />
           <attribute id="LobbyLevelName" type="FixedString" value="" />
