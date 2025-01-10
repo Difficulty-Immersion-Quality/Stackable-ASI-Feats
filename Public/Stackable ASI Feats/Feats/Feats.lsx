@@ -58,7 +58,7 @@
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="TavernBrawler"/>
                     <attribute id="PassivesAdded" type="LSString" value="TavernBrawler"/>
-                    <attribute id="Selectors" type="LSString" value="SelectAbilities(859878b3-9c3a-450d-a190-bc90707c9671,1,1,LightlyArmoredASI)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(646cfe17-932f-405f-8f23-e7b80b2a7b0b,1)"/>
                     <attribute id="UUID" type="guid" value="be0889d2-f9aa-472d-b942-592bff0f1ef3"/>
                 </node>
                 <node id="Feat">

@@ -180,6 +180,54 @@ using "Performer"
 data "Description" "h52e498aegb686g4c5fgb400g18d6ac8c6886;1"
 data "Boosts" "Ability(Charisma, 1);Proficiency(MusicalInstrument)"
 
+// ==================================== Tavern Brawler ====================================
+
+//new entry "TavernBrawler"
+//type "PassiveData"
+// Tavern Brawler
+//data "DisplayName" "hcf652a63g4177g4d3fg9233g7258998f8d75;2"
+// When you make an unarmed attack, use an improvised weapon, or throw something, your Strength Modifier is added twice to the damage and Attack Rolls.
+//data "Description" "he0a1651bgd70eg4847g8a5eg9b219d1751a1;1"
+//data "Icon" "PassiveFeature_TavernBrawler"
+//data "Properties" "Highlighted"
+//data "Boosts" " IF(IsMeleeUnarmedAttack()):RollBonus(Attack, StrengthModifier);IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(StrengthModifier);IF(IsRangedUnarmedAttack()):RollBonus(Attack, StrengthModifier);IF(HasStatus('SG_Polymorph_BeastShape',context.Source) and not (Tagged('MYRMIDON_AIR',context.Source) or Tagged('MYRMIDON_FIRE',context.Source) or Tagged('MYRMIDON_WATER',context.Source))):DamageBonus(StrengthModifier)"
+//data "StatsFunctorContext" "OnAttack"
+//data "Conditions" "(IsRangedUnarmedAttack() or SpellId('Throw_ImprovisedWeapon') or SpellId('Throw_ImprovisedWeaponBerserker')) and HasDamageEffectFlag(DamageFlags.Hit)"
+//data "StatsFunctors" "DealDamage(StrengthModifier);"
+
+//new entry "TavernBrawler"
+//type "PassiveData"
+//using "TavernBrawler"
+//data "Boosts" " IF(IsMeleeUnarmedAttack()):RollBonus(Attack, StrengthModifier);IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(StrengthModifier);IF(IsRangedUnarmedAttack()):RollBonus(Attack, StrengthModifier);IF(IsRangedUnarmedAttack()):DamageBonus(StrengthModifier)"
+//data "StatsFunctorContext" ""
+//data "Conditions" ""
+//data "StatsFunctors" ""
+
+new entry "TavernBrawler"
+// When you make an unarmed attack, use an improvised weapon, or throw something, your Strength Modifier is added to the damage and Attack Rolls. Your Strength or Dexterity is increased by [1].
+data "Description" "h2ed58cefgde7fg4da4ga6c6g7a661417727f;1"
+data "DescriptionParams" "1"
+
+new entry "TavernBrawler_Strength"
+type "PassiveData"
+// Tavern Brawler: Strength
+data "DisplayName" "h35415ceegde76g4855gada0g2cc72fa2971c;1"
+// Your Strength is increased by [1].
+data "Description" "hf51dd462gb417g4b3bg9abegb841dfb988a7;1"
+data "DescriptionParams" "1"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "TavernBrawler_Dexterity"
+type "PassiveData"
+// Tavern Brawler: Dexterity
+data "DisplayName" "hefbbed5ega098g4baaga190g0697d83b64e3;1"
+// Your Dexterity is increased by [1].
+data "Description" "h1c4db49egc213g4be2g843dga5c4a9b3389c;1"
+data "DescriptionParams" "1"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
+
 // ==================================== Resilient ====================================
 
 //new entry "Resilient_Strength"
