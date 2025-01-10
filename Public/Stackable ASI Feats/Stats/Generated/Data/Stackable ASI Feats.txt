@@ -230,6 +230,31 @@ data "Boosts" "Ability(Dexterity, 1)"
 
 // ==================================== Resilient ====================================
 
+//new entry "WeaponMaster"
+//type "PassiveData"
+// Weapon Master
+//data "DisplayName" "ha4d4a2b6gb639g45d1gbf12g8bfd4b5be053;1"
+// You have gained Proficiency with four weapons of your choice.
+//data "Description" "hf3bf18d8gcbe2g43bbg86e4g20c4034e9c83;1"
+//data "Icon" "PassiveFeature_WeaponMaster"
+//data "Properties" "Highlighted"
+
+new entry "WeaponMaster_Strength"
+type "PassiveData"
+using "WeaponMaster"
+// You have gained Proficiency with four weapons of your choice, and your Strength is increased by [1].
+data "Description" "hbf0ccfc8g12dfg4c14g81c3gfcf39c51a05f;1"
+data "DescriptionParams" "1"
+
+new entry "WeaponMaster_Dexterity"
+type "PassiveData"
+using "WeaponMaster"
+// You have gained Proficiency with four weapons of your choice, and your Dexterity is increased by [1].
+data "Description" "h29ec59aegace5g4117gac54g44ad5f458d28;1"
+data "DescriptionParams" "1"
+
+// ==================================== Resilient ====================================
+
 //new entry "Resilient_Strength"
 //type "PassiveData"
 // Resilient: Strength

@@ -24,6 +24,11 @@
                     <attribute id="Passives" type="LSString" value="TavernBrawler_Strength,TavernBrawler_Dexterity"/>
                     <attribute id="UUID" type="guid" value="646cfe17-932f-405f-8f23-e7b80b2a7b0b"/>
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Weapon Master ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="WeaponMaster_Strength,WeaponMaster_Dexterity"/>
+                    <attribute id="UUID" type="guid" value="61547322-76be-47c4-9555-b67a1d898d1b"/>
+                </node>
             </children>
         </node>
     </region>

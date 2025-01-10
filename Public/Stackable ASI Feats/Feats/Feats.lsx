@@ -64,7 +64,7 @@
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="WeaponMaster"/>
                     <attribute id="PassivesAdded" type="LSString" value="WeaponMaster"/>
-                    <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,LightlyArmoredASI);SelectPassives(f21e6b94-44e8-4ae0-a6f1-0c81abac03a2,4,WeaponMasterProficiencies)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(61547322-76be-47c4-9555-b67a1d898d1b,1);SelectPassives(f21e6b94-44e8-4ae0-a6f1-0c81abac03a2,4,WeaponMasterProficiencies)"/>
                     <attribute id="UUID" type="guid" value="b153e75c-27a2-4412-95cd-60b477121679"/>
                 </node>
             </children>
