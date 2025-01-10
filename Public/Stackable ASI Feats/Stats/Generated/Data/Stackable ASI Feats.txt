@@ -122,7 +122,7 @@ data "Boosts" "Ability(Strength, 1); IF(HasHeavyArmor() and not HasDamageEffectF
 new entry "LightlyArmored_Strength"
 type "PassiveData"
 using "LightlyArmored"
-// You have Armour Proficiency with Light Armour.
+// Your Strength is increased by [1], and you have Armour Proficiency with Light Armour.
 data "Description" "hd29c522ag6dd5g4b11ga405g12755e767639;1"
 data "DescriptionParams" "1"
 data "Boosts" "Ability(Strength, 1);Proficiency(LightArmor)"
@@ -130,7 +130,7 @@ data "Boosts" "Ability(Strength, 1);Proficiency(LightArmor)"
 new entry "LightlyArmored_Dexterity"
 type "PassiveData"
 using "LightlyArmored"
-// You have Armour Proficiency with Light Armour.
+// Your Dexterity is increased by [1], and you have Armour Proficiency with Light Armour.
 data "Description" "h4d0cb7fegcbcdg42c6g8ff2g1cc6e0a22269;1"
 data "Boosts" "Ability(Dexterity, 1);Proficiency(LightArmor)"
 
@@ -149,7 +149,7 @@ data "Boosts" "Ability(Dexterity, 1);Proficiency(LightArmor)"
 new entry "ModeratelyArmored_Strength"
 type "PassiveData"
 using "ModeratelyArmored"
-// You have Armour Proficiency with Medium Armour and shields.
+// Your Strength is increased by [1], and you have Armour Proficiency with Medium Armour and shields.
 data "Description" "hc04ddde6gcf4bg499dga9a5gd7fe6f713135;1"
 data "DescriptionParams" "1"
 data "Boosts" "Ability(Strength, 1);Proficiency(MediumArmor);Proficiency(Shields)"
@@ -157,7 +157,7 @@ data "Boosts" "Ability(Strength, 1);Proficiency(MediumArmor);Proficiency(Shields
 new entry "ModeratelyArmored_Dexterity"
 type "PassiveData"
 using "ModeratelyArmored"
-// You have Armour Proficiency with Medium Armour and shields.
+// Your Dexterity is increased by [1], and you have Armour Proficiency with Medium Armour and shields.
 data "Description" "he3f16e43g6666g44eeg89e8ge2790e9930ad;1"
 data "DescriptionParams" "1"
 data "Boosts" "Ability(Dexterity, 1);Proficiency(MediumArmor);Proficiency(Shields)"
