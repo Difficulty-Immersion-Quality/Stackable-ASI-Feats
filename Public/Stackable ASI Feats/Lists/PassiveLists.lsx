@@ -14,6 +14,11 @@
                     <attribute id="Passives" type="LSString" value="LightlyArmored_Strength,LightlyArmored_Dexterity"/>
                     <attribute id="UUID" type="guid" value="8bcb276e-b204-488a-ac3a-8e765c79f2d2"/>
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Moderately Armoured ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="ModeratelyArmored_Strength,ModeratelyArmored_Dexterity"/>
+                    <attribute id="UUID" type="guid" value="b0c5c39c-e57d-46ac-a55f-4cd353ba5c8f"/>
+                </node>
             </children>
         </node>
     </region>

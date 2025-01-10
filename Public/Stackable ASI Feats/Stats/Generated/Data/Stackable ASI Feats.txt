@@ -83,7 +83,7 @@ new entry "HeavilyArmored"
 type "PassiveData"
 using "HeavilyArmored"
 // You have Armour Proficiency with Heavy Armour and your Strength is increased by [1].
-data "Description" "h07e53b1fgf318g4509gab84gc41b9a1816d0"
+data "Description" "h07e53b1fgf318g4509gab84gc41b9a1816d0;1"
 data "DescriptionParams" "1"
 data "Boosts" "Ability(Strength, 1);Proficiency(HeavyArmor)"
 
@@ -104,7 +104,7 @@ new entry "HeavyArmorMaster"
 type "PassiveData"
 using "HeavyArmorMaster"
 // Your Strength is increased by [1]. Incoming damage from non-magical attacks is reduced by [3] while you're wearing heavy armour.
-data "Description" "h0af8660cg2aecg4aeegb00dgc5fbb27084f8"
+data "Description" "h0af8660cg2aecg4aeegb00dgc5fbb27084f8;1"
 data "Boosts" "Ability(Strength, 1); IF(HasHeavyArmor() and not HasDamageEffectFlag(DamageFlags.Magical)):DamageReduction(Slashing, Flat, 3); IF(HasHeavyArmor() and not HasDamageEffectFlag(DamageFlags.Magical)):DamageReduction(Bludgeoning, Flat, 3); IF(HasHeavyArmor() and not HasDamageEffectFlag(DamageFlags.Magical)):DamageReduction(Piercing, Flat, 3)"
 
 // ==================================== Lightly Armoured ====================================
@@ -124,6 +124,7 @@ type "PassiveData"
 using "LightlyArmored"
 // You have Armour Proficiency with Light Armour.
 data "Description" "hd29c522ag6dd5g4b11ga405g12755e767639;1"
+data "DescriptionParams" "1"
 data "Boosts" "Ability(Strength, 1);Proficiency(LightArmor)"
 
 new entry "LightlyArmored_Dexterity"
@@ -132,6 +133,34 @@ using "LightlyArmored"
 // You have Armour Proficiency with Light Armour.
 data "Description" "h4d0cb7fegcbcdg42c6g8ff2g1cc6e0a22269;1"
 data "Boosts" "Ability(Dexterity, 1);Proficiency(LightArmor)"
+
+// ==================================== Lightly Armoured ====================================
+
+//new entry "ModeratelyArmored"
+//type "PassiveData"
+// Moderately Armoured
+//data "DisplayName" "hc7ec371fg6a1cg4468g920ag28f3059635f3;2"
+// You have Armour Proficiency with Medium Armour and shields.
+//data "Description" "h20014732g0400g4e54ga7c4g76fc99c787db;3"
+//data "Icon" "PassiveFeature_ModeratelyArmored"
+//data "Properties" "Highlighted"
+//data "Boosts" "Proficiency(MediumArmor);Proficiency(Shields)"
+
+new entry "ModeratelyArmored_Strength"
+type "PassiveData"
+using "ModeratelyArmored"
+// You have Armour Proficiency with Medium Armour and shields.
+data "Description" "hc04ddde6gcf4bg499dga9a5gd7fe6f713135;1"
+data "DescriptionParams" "1"
+data "Boosts" "Ability(Strength, 1);Proficiency(MediumArmor);Proficiency(Shields)"
+
+new entry "ModeratelyArmored_Dexterity"
+type "PassiveData"
+using "ModeratelyArmored"
+// You have Armour Proficiency with Medium Armour and shields.
+data "Description" "he3f16e43g6666g44eeg89e8ge2790e9930ad;1"
+data "DescriptionParams" "1"
+data "Boosts" "Ability(Dexterity, 1);Proficiency(MediumArmor);Proficiency(Shields)"
 
 // ==================================== Resilient ====================================
 

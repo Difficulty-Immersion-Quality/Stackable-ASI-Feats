@@ -40,9 +40,9 @@
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="ModeratelyArmored"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ModeratelyArmored"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;LightArmor&apos;)"/>
-                    <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,LightlyArmoredASI)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(b0c5c39c-e57d-46ac-a55f-4cd353ba5c8f,1)"/>
                     <attribute id="UUID" type="guid" value="681d5307-f0ed-4c94-8cf0-db0c51116f56"/>
                 </node>
                 <node id="Feat">

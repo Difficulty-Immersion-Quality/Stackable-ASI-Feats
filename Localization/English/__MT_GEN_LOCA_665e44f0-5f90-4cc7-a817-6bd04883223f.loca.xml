@@ -22,9 +22,14 @@
 	<content contentuid="h0af8660cg2aecg4aeegb00dgc5fbb27084f8" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; is increased by [1]. Incoming damage from non-magical attacks is reduced by [3] while you're wearing heavy armour.</content>
 
 	-- Lightly Armoured
-	<content contentuid="ha952c946gada8g4088gbbf5gc39f36716add" version="4">You gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light Armour and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.</content>
-	<content contentuid="hd29c522ag6dd5g4b11ga405g12755e767639" version="3">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; is increased by 1, and you have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light Armour.</content>
-	<content contentuid="h4d0cb7fegcbcdg42c6g8ff2g1cc6e0a22269" version="3">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; is increased by 1, and you have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light Armour.</content>
+	<content contentuid="ha952c946gada8g4088gbbf5gc39f36716add" version="1">You gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light Armour and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.</content>
+	<content contentuid="hd29c522ag6dd5g4b11ga405g12755e767639" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; is increased by [1], and you have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light Armour.</content>
+	<content contentuid="h4d0cb7fegcbcdg42c6g8ff2g1cc6e0a22269" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; is increased by [1], and you have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light Armour.</content>
+
+	-- Moderately Armoured
+	<content contentuid="hfd07af69gfa16g4bcfg9a69gaf190cde8651" version="1">You gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour and shields, and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.</content>
+	<content contentuid="hc04ddde6gcf4bg499dga9a5gd7fe6f713135" version="3">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; is increased by [1], and you have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour and shields. </content>
+	<content contentuid="he3f16e43g6666g44eeg89e8ge2790e9930ad" version="3">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; is increased by [1], and you have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour and shields.</content>
 
 	-- Resilient
 	<content contentuid="h7fc2132fg7937g4491g8ae1g69387619868b" version="1">You increase an &lt;LSTag Tooltip="Abilities"&gt;Ability&lt;/LSTag&gt; by 1, and gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in that Ability's &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
