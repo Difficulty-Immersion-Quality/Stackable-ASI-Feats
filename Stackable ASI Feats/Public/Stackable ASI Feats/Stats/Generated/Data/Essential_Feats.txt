@@ -1,1 +1,471 @@
+// ==================================== Alchemist ====================================
 
+new entry "SYR_Feat_Alchemist_Constitution"
+type "PassiveData"
+// Alchemist: Constitution
+data "DisplayName" "XXX;1"
+// Your Constitution is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Constitution, 1)"
+
+new entry "SYR_Feat_Alchemist_Intelligence"
+type "PassiveData"
+// Alchemist: Intelligence
+data "DisplayName" "XXX;1"
+// Your Intelligence is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "SYR_Feat_Alchemist_Wisdom"
+type "PassiveData"
+// Alchemist: Wisdom
+data "DisplayName" "XXX;1"
+// Your Wisdom is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "SYR_Feat_Alchemist_Charisma"
+type "PassiveData"
+// Alchemist: Charisma
+data "DisplayName" "XXX;1"
+// Your Charisma is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"
+
+// ==================================== Deadly Alacrity ====================================
+
+new entry "SYR_Feat_DeadlyAlacrity_Strength"
+type "PassiveData"
+// Deadly Alacrity: Strength
+data "DisplayName" "XXX;1"
+// Your Strength is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "SYR_Feat_DeadlyAlacrity_Dexterity"
+type "PassiveData"
+// Deadly Alacrity: Dexterity
+data "DisplayName" "XXX;1"
+// Your Dexterity is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
+
+new entry "SYR_Feat_DeadlyAlacrity_Intelligence"
+type "PassiveData"
+// Deadly Alacrity: Intelligence
+data "DisplayName" "XXX;1"
+// Your Intelligence is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "SYR_Feat_DeadlyAlacrity_Wisdom"
+type "PassiveData"
+// Deadly Alacrity: Wisdom
+data "DisplayName" "XXX;1"
+// Your Wisdom is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "SYR_Feat_DeadlyAlacrity_Charisma"
+type "PassiveData"
+// Deadly Alacrity: Charisma
+data "DisplayName" "XXX;1"
+// Your Charisma is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"
+
+// ==================================== Eldritch Adept ====================================
+
+new entry "SYR_Feat_EldritchAdept_Intelligence"
+type "PassiveData"
+// Eldritch Adept: Intelligence
+data "DisplayName" "XXX;1"
+// Your Intelligence is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "SYR_Feat_EldritchAdept_Wisdom"
+type "PassiveData"
+// Eldritch Adept: Wisdom
+data "DisplayName" "XXX;1"
+// Your Wisdom is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "SYR_Feat_EldritchAdept_Charisma"
+type "PassiveData"
+// Eldritch Adept: Charisma
+data "DisplayName" "XXX;1"
+// Your Charisma is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"
+
+// ==================================== Fighting Initiate ====================================
+
+new entry "SYR_Feat_FightingInitiate_Strength"
+type "PassiveData"
+// Fighting Initiate: Strength
+data "DisplayName" "XXX;1"
+// Your Strength is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "SYR_Feat_FightingInitiate_Dexterity"
+type "PassiveData"
+// Fighting Initiate: Dexterity
+data "DisplayName" "XXX;1"
+// Your Dexterity is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
+
+// ==================================== Fey Touched ====================================
+
+new entry "SYR_Feat_FeyTouched_Intelligence"
+type "PassiveData"
+// Fey Touched: Intelligence
+data "DisplayName" "XXX;1"
+// Your Intelligence is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "SYR_Feat_FeyTouched_Wisdom"
+type "PassiveData"
+// Fey Touched: Wisdom
+data "DisplayName" "XXX;1"
+// Your Wisdom is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "SYR_Feat_FeyTouched_Charisma"
+type "PassiveData"
+// Fey Touched: Charisma
+data "DisplayName" "XXX;1"
+// Your Charisma is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"
+
+// ==================================== Heaven Touched ====================================
+
+new entry "SYR_Feat_HeavenTouched_Intelligence"
+type "PassiveData"
+// Heaven Touched: Intelligence
+data "DisplayName" "XXX;1"
+// Your Intelligence is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "SYR_Feat_HeavenTouched_Wisdom"
+type "PassiveData"
+// Heaven Touched: Wisdom
+data "DisplayName" "XXX;1"
+// Your Wisdom is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "SYR_Feat_HeavenTouched_Charisma"
+type "PassiveData"
+// Heaven Touched: Charisma
+data "DisplayName" "XXX;1"
+// Your Charisma is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"
+
+// ==================================== Hell Touched ====================================
+
+new entry "SYR_Feat_HellTouched_Intelligence"
+type "PassiveData"
+// Hell Touched: Intelligence
+data "DisplayName" "XXX;1"
+// Your Intelligence is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "SYR_Feat_HellTouched_Wisdom"
+type "PassiveData"
+// Hell Touched: Wisdom
+data "DisplayName" "XXX;1"
+// Your Wisdom is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "SYR_Feat_HellTouched_Charisma"
+type "PassiveData"
+// Hell Touched: Charisma
+data "DisplayName" "XXX;1"
+// Your Charisma is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"
+
+// ==================================== Light Armour Master ====================================
+
+new entry "SYR_Feat_LightArmorMaster_Strength"
+type "PassiveData"
+// Light Armor Master: Strength
+data "DisplayName" "XXX;1"
+// Your Strength is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "SYR_Feat_LightArmorMasted_Dexterity"
+type "PassiveData"
+// Light Armor Master: Dexterity
+data "DisplayName" "XXX;1"
+// Your Dexterity is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
+
+// ==================================== Metamagic Adept ====================================
+
+new entry "SYR_Feat_MetamagicAdept_Intelligence"
+type "PassiveData"
+// Metamagic Adept: Intelligence
+data "DisplayName" "XXX;1"
+// Your Intelligence is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "SYR_Feat_MetamagicAdept_Wisdom"
+type "PassiveData"
+// Metamagic Adept: Wisdom
+data "DisplayName" "XXX;1"
+// Your Wisdom is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "SYR_Feat_MetamagicAdept_Charisma"
+type "PassiveData"
+// Metamagic Adept: Charisma
+data "DisplayName" "XXX;1"
+// Your Charisma is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"
+
+// ==================================== Nimble Fingers ====================================
+
+new entry "SYR_Feat_NimbleFingers_Passive"
+type "PassiveData"
+using "SYR_Feat_NimbleFingers_Passive"
+// data "Boosts" "UnlockInterrupt(SYR_Interrupt_NimbleFingers_DeflectMissiles);UnlockInterrupt(SYR_Interrupt_NimbleFingers_DeflectMissiles_Return);ExpertiseBonus(SleightOfHand)"
+data "Boosts" "UnlockInterrupt(SYR_Interrupt_NimbleFingers_DeflectMissiles);UnlockInterrupt(SYR_Interrupt_NimbleFingers_DeflectMissiles_Return);ExpertiseBonus(SleightOfHand);Ability(Dexterity,1)"
+
+// ==================================== Shadow Touched ====================================
+
+new entry "SYR_Feat_ShadowTouched_Intelligence"
+type "PassiveData"
+// Shadow Touched: Intelligence
+data "DisplayName" "XXX;1"
+// Your Intelligence is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "SYR_Feat_ShadowTouched_Wisdom"
+type "PassiveData"
+// Shadow Touched: Wisdom
+data "DisplayName" "XXX;1"
+// Your Wisdom is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "SYR_Feat_ShadowTouched_Charisma"
+type "PassiveData"
+// Shadow Touched: Charisma
+data "DisplayName" "XXX;1"
+// Your Charisma is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"
+
+// ==================================== Skill Expert ====================================
+
+new entry "SYR_Feat_SkillExpert_Strength"
+type "PassiveData"
+// Skill Expert: Strength
+data "DisplayName" "XXX;1"
+// Your Strength is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "SYR_Feat_SkillExpert_Dexterity"
+type "PassiveData"
+// Skill Expert: Dexterity
+data "DisplayName" "XXX;1"
+// Your Dexterity is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
+
+new entry "SYR_Feat_SkillExpert_Constitution"
+type "PassiveData"
+// Skill Expert: Constitution
+data "DisplayName" "XXX;1"
+// Your Constitution is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Constitution, 1)"
+
+new entry "SYR_Feat_SkillExpert_Intelligence"
+type "PassiveData"
+// Skill Expert: Intelligence
+data "DisplayName" "XXX;1"
+// Your Intelligence is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "SYR_Feat_SkillExpert_Wisdom"
+type "PassiveData"
+// Skill Expert: Wisdom
+data "DisplayName" "XXX;1"
+// Your Wisdom is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "SYR_Feat_SkillExpert_Charisma"
+type "PassiveData"
+// Skill Expert: Charisma
+data "DisplayName" "XXX;1"
+// Your Charisma is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"
+
+// ==================================== Telekinetic ====================================
+
+new entry "SYR_Feat_Telekinetic_Intelligence"
+type "PassiveData"
+// Telekinetic: Intelligence
+data "DisplayName" "XXX;1"
+// Your Intelligence is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "SYR_Feat_Telekinetic_Wisdom"
+type "PassiveData"
+// Telekinetic: Wisdom
+data "DisplayName" "XXX;1"
+// Your Wisdom is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "SYR_Feat_Telekinetic_Charisma"
+type "PassiveData"
+// Shadow Touched: Charisma
+data "DisplayName" "XXX;1"
+// Your Charisma is increased by [1].
+data "Description" "XXX;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"
