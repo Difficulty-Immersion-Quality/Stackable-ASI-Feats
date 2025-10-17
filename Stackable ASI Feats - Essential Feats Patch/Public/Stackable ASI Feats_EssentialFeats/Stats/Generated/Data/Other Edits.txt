@@ -1,0 +1,39 @@
+// ==================================== Deadly Alacrity ====================================
+// Loca polishing
+
+new entry "SYR_Feat_DeadlyAlacrity_Passive"
+type "PassiveData"
+using "SYR_Feat_DeadlyAlacrity_Passive"
+// The number you need to roll for a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 1. When you hit a target with an attack, you regain [1] of &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;. If you &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt; or strike a killing blow, you regain [2] instead.
+data "Description" "h1c2fcf2ag6488g45a2gb24cg40887145c07e;1"
+
+// ==================================== Light Armour Master ====================================
+// Loca polishing
+
+new entry "SYR_Feat_LightArmorMaster_Passive"
+type "PassiveData"
+using "SYR_Feat_LightArmorMaster_Passive"
+// Light Armour Master
+data "DisplayName" "h1bb7f446g3ef8g40d4g9066g0595abb81be8;1"
+// When wearing Light Armour, your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance increase by [1], and &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reactions&lt;/LSTag&gt; against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.
+data "Description" "h8d336c25g1e49g4016g87a0g18004b58bd2f;1"
+
+// ==================================== Thief's Apprentice ====================================
+// Loca polishing
+
+new entry "SYR_Feat_ThiefsApprentice_Passive"
+type "PassiveData"
+using "SYR_Feat_ThiefsApprentice_Passive"
+// Grants &lt;LSTag Type="Spell" Tooltip="Shout_Hide_BonusAction"&gt;Cunning Action: Hide&lt;/LSTag&gt;. When attacking from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisibility&lt;/LSTag&gt;, or after scoring a killing blow, you gain an additional &lt;LSTag Type="Image" Info="TutorialBonusActionFilter"/&gt; &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; on your next turn.&lt;br&gt;&lt;br&gt;This does not function if you already have an additional &lt;LSTag Type="Image" Info="TutorialBonusActionFilter"/&gt; &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; from another source.
+data "Description" "h5b96e7b7gaba7g4d5egaf0eg63541e600bfc;1"
+
+// ==================================== War Magic ====================================
+// Remove arbitrary exclusion of Booming Blade, as it's not as OP with the feat when using RAW (and editing loca so even if it still works with non-vanilla versions of the cantrip, the tooltip isn't misleading)
+
+new entry "SYR_Feat_WarMagic_AltSpell_Passive"
+type "PassiveData"
+using "SYR_Feat_WarMagic_AltSpell_Passive"
+// 	After casting a spell or cantrip, you can make a basic attack as a &lt;LSTag Type="Image" Info="TutorialBonusActionFilter"/&gt; &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;. This attack deals half damage.&lt;br&gt;&lt;br&gt;Starting at level 5, you can make any attack as an extra attack and it deals full damage.
+data "Description" "h4c622747gd6a5g4c71gb15egbc6c13d6ed5b;1"
+// data "Conditions" "HasSpellFlag(SpellFlags.Spell) and not SpellId('Target_BoomingBlade_ClassSpell') and HasUseCosts('ActionPoint', true) and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source)"
+data "Conditions" "HasSpellFlag(SpellFlags.Spell) and HasUseCosts('ActionPoint', true) and HasActionResource('BonusActionPoint', 1, 0, false, false, context.Source)"

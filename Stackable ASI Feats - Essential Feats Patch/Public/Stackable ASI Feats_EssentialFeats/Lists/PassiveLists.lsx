@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="0"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Alchemist ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="SYR_Feat_Alchemist_Constitution,SYR_Feat_Alchemist_Intelligence,SYR_Feat_Alchemist_Wisdom,SYR_Feat_Alchemist_Charisma"/>
+                    <attribute id="UUID" type="guid" value="53aeabbc-e32d-4146-a258-81a6e5d92348"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Deadly Alacrity ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="SYR_Feat_DeadlyAlacrity_Strength,SYR_Feat_DeadlyAlacrity_Dexterity,SYR_Feat_DeadlyAlacrity_Intelligence,SYR_Feat_DeadlyAlacrity_Wisdom,SYR_Feat_DeadlyAlacrity_Charisma"/>
+                    <attribute id="UUID" type="guid" value="7c8e906a-d7dc-48ba-8fea-81999efc4fdc"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Eldritch Adept ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="SYR_Feat_EldritchAdept_Intelligence,SYR_Feat_EldritchAdept_Wisdom,SYR_Feat_EldritchAdept_Charisma"/>
+                    <attribute id="UUID" type="guid" value="210b63b8-005c-448f-be4c-3021ea0b0ec1"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Fighting Initiate ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="SYR_Feat_FightingInitiate_Strength,SYR_Feat_FightingInitiate_Dexterity"/>
+                    <attribute id="UUID" type="guid" value="29858201-5af2-4e8f-9da5-7510a58ec908"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Fey Touched ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="SYR_Feat_FeyTouched_Intelligence,SYR_Feat_FeyTouched_Wisdom,SYR_Feat_FeyTouched_Charisma"/>
+                    <attribute id="UUID" type="guid" value="6312c544-74d1-48d1-a25c-bff67f9a53f6"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Heaven Touched ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="SYR_Feat_HeavenTouched_Intelligence,SYR_Feat_HeavenTouched_Wisdom,SYR_Feat_HeavenTouched_Charisma"/>
+                    <attribute id="UUID" type="guid" value="ccb08bbd-905f-4b6f-bdb6-c1c83c521c05"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Hell Touched ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="SYR_Feat_HellTouched_Intelligence,SYR_Feat_HellTouched_Wisdom,SYR_Feat_HellTouched_Charisma"/>
+                    <attribute id="UUID" type="guid" value="04cf7cad-3b04-4e68-ab02-9cd3713fcd58"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Light Armor Master ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="SYR_Feat_LightArmorMaster_Strength,SYR_Feat_LightArmorMasted_Dexterity"/>
+                    <attribute id="UUID" type="guid" value="e4321008-3796-4a25-8b48-1aff63a8d6e1"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Metamagic Adept ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="SYR_Feat_MetamagicAdept_Intelligence,SYR_Feat_MetamagicAdept_Wisdom,SYR_Feat_MetamagicAdept_Charisma"/>
+                    <attribute id="UUID" type="guid" value="75d5c1f1-43dc-49b5-93b7-bd273fcf4990"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Shadow Touched ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="SYR_Feat_ShadowTouched_Intelligence,SYR_Feat_ShadowTouched_Wisdom,SYR_Feat_ShadowTouched_Charisma"/>
+                    <attribute id="UUID" type="guid" value="0eccb780-2e74-416a-bff3-c11ed049bac6"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Skill Expert ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="SYR_Feat_SkillExpert_Strength,SYR_Feat_SkillExpert_Dexterity,SYR_Feat_SkillExpert_Constitution,SYR_Feat_SkillExpert_Intelligence,SYR_Feat_SkillExpert_Wisdom,SYR_Feat_SkillExpert_Charisma"/>
+                    <attribute id="UUID" type="guid" value="e3251798-871d-4f74-a2ed-bc81b153e87e"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Telekinetic ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="SYR_Feat_Telekinetic_Intelligence,SYR_Feat_Telekinetic_Wisdom,SYR_Feat_Telekinetic_Charisma"/>
+                    <attribute id="UUID" type="guid" value="25a50b84-07fb-4ecf-bf6e-2ec323e1fbcb"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
