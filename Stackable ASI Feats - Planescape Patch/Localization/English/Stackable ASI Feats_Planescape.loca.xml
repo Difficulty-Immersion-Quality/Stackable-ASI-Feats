@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<!-- Planar Agent -->
+	<content contentuid="h4edb1a2ag4415g4af3g9eedge8c528b9b12b" version="1">Planar Agent: Strength</content>
+	<content contentuid="h344eb3efg5cdcg47eag8377g1d94031dd1fd" version="1">Your Strength is increased by [1].</content>
+	<content contentuid="h268812d4gfd8ag40d6g86d1ge5e0901a7a16" version="1">Planar Agent: Dexterity</content>
+	<content contentuid="he5caff5ag8df7g422cg92aegadcd2d0c1e08" version="1">Your Dexterity is increased by [1].</content>
+	<content contentuid="hfc739294gae9fg4b33g8b0eg6db9d709996d" version="1">Planar Agent: Constitution</content>	
+	<content contentuid="h0571b0bfgc7e2g4453g98f2gd3dd8064a4ce" version="1">Your Constitution is increased by [1].</content>
+	<content contentuid="h226a6c80g65a6g46abg97ebgd76fe0857d39" version="1">Planar Agent: Intelligence</content>
+	<content contentuid="h171016e4g184dg49a7g89cagc09ec62f2861" version="1">Your Intelligence is increased by [1].</content>
+	<content contentuid="h171016e4g184dg49a7g89cagc09ec62f2861" version="1">Planar Agent: Wisdom</content>
+	<content contentuid="h9340ba42ge8ceg48afgbaf5gce4630b0ba46" version="1">Your Wisdom is increased by [1].</content>
+	<content contentuid="h785749b4g0c4dg4dcag917fg205b2e38af2a" version="1">Planar Agent: Charisma</content>
+	<content contentuid="h5420a21bgdd63g4b46gafacg4b4519aba688" version="1">Your Charisma is increased by [1].</content>
+</contentList>

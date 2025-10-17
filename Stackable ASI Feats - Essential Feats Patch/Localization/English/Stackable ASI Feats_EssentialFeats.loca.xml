@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+<!-- ASI Passives -->
+
+	<!-- Alchemist -->
+	<content contentuid="hf161f55bg4d40g4aa0g94e9g879644b69ed8" version="1">Alchemist: Constitution</content>
+	<content contentuid="h313ad671g1184g45b5g82a7g7d3f94336dae" version="1">Alchemist: Intelligence</content>
+	<content contentuid="h86912161g6783g42b0gb869g24f66bec28b8" version="1">Alchemist: Wisdom</content>
+	<content contentuid="h5fde2c36g1946g4288g8d1cgfd5b74715022" version="1">Alchemist: Charisma</content>
+
+	<!-- Deadly Alacrity -->
+	<content contentuid="h3dfcba76gb0a6g49b6g81b9g306385ce1b5a" version="1">Deadly Alacrity: Strength</content>
+	<content contentuid="h4c56cc15g1a0cg451bgb3bfgc1a587270df0" version="1">Deadly Alacrity: Dexterity</content>
+	<content contentuid="h665abcdfgc329g4f6ag85b1g4581cd2e0eef" version="1">Deadly Alacrity: Intelligence</content>
+	<content contentuid="h1560639eg4086g471cg8bc9g8597812721fb" version="1">Deadly Alacrity: Wisdom</content>
+	<content contentuid="h1f2e1bfeg7a20g4931g9e0bg1e7a3adff2f5" version="1">Deadly Alacrity: Charisma</content>
+
+	<!-- Eldritch Adept -->
+	<content contentuid="h29da25d3g85e2g45b0ga2d0gde5c5a2fe9ed" version="1">Eldritch Adept: Intelligence</content>
+	<content contentuid="h2655eed1g55b2g4102gbc33g184cf01287ee" version="1">Eldritch Adept: Wisdom</content>
+	<content contentuid="h83e6bccbg9fd2g4c45gac6cg11db0e1a9096" version="1">Eldritch Adept: Charisma</content>
+
+	<!-- Fighting Initiate -->
+	<content contentuid="heb7a44a0g205fg401cgb768gb2a686c73e73" version="1">Fighting Initiate: Strength</content>
+	<content contentuid="hd59d3e6ag29adg4679gb224gbb10084d91a7" version="1">Fighting Initiate: Dexterity</content>
+
+	<!-- Fey Touched -->
+	<content contentuid="h5785cfa1g5696g49fega1fcg02d95563182a" version="1">Fey Touched: Intelligence</content>
+	<content contentuid="hff668c4eg9eb6g42f3gb1e0g5d4a67a6907e" version="1">Fey Touched: Wisdom</content>
+	<content contentuid="h1335f2afgeee6g4a61ga498g99490ee76848" version="1">Fey Touched: Charisma</content>
+
+	<!-- Heaven Touched -->
+	<content contentuid="h982b3f9cg1b92g4fafgab94g7fc23b799260" version="1">Heaven Touched: Intelligence</content>
+	<content contentuid="h8cb54687g8518g439bgb809gefa3b7b60ba9" version="1">Heaven Touched: Wisdom</content>
+	<content contentuid="h1af39f84g6cbag49dfg8187g7895a8c3a429" version="1">Heaven Touched: Charisma</content>
+
+	<!-- Hell Touched -->
+	<content contentuid="h35846e1bg5f67g4340g9abbg16ebd86790d1" version="1">Hell Touched: Intelligence</content>
+	<content contentuid="h434b89afg885bg4ea7gb17eg1ca3e2e7308a" version="1">Hell Touched: Wisdom</content>
+	<content contentuid="h3c2d9b79g60d7g421ag993eg742b1d0ebd50" version="1">Hell Touched: Charisma</content>
+
+	<!-- Light Armor Master -->
+	<content contentuid="h9063ff01g5d3cg4df4gbda0gfc2ea4c2e66d" version="1">Light Armor Master: Strength</content>
+	<content contentuid="h9d8bfbf6gd0adg430bgae78g0e90d4fa6845" version="1">Light Armor Master: Dexterity</content>
+
+	<!-- Metamagic Adept -->
+	<content contentuid="h5458d793gde53g442dgb04cga5f5fffb5683" version="1">Metamagic Adept: Intelligence</content>
+	<content contentuid="h7ec43c1fg5c2cg4912g9190g16c630f1e5c4" version="1">Metamagic Adept: Wisdom</content>
+	<content contentuid="h4f9f51b4g3db5g4ca7gb2c8g1d61a3edb14e" version="1">Metamagic Adept: Charisma</content>
+
+	<!-- Shadow Touched -->
+	<content contentuid="he70ff13eg265ag452ega9ffg2589fbb26509" version="1">Shadow Touched: Intelligence</content>
+	<content contentuid="h26d5c77cgdcbeg4cf4g8018gf2ef39ec1aeb" version="1">Shadow Touched: Wisdom</content>
+	<content contentuid="he9a532b7g9376g49afgb7aegc609c301746a" version="1">Shadow Touched: Charisma</content>
+
+	<!-- Skill Expert -->
+	<content contentuid="h94aa6165gb54eg405egb523g5c1da5238012" version="1">Skill Expert: Strength</content>
+	<content contentuid="hbef4c68dg8d18g4233g9ce8ge973b29a4298" version="1">Skill Expert: Dexterity</content>
+	<content contentuid="he6f148e6ged30g40cdgb6d5ge1bb06af27e1" version="1">Skill Expert: Constitution</content>
+	<content contentuid="h1aec8b96gb883g4339g8156g533ac75fd27c" version="1">Skill Expert: Intelligence</content>
+	<content contentuid="h9af1799dg3606g4e24gba14gfdce798465e7" version="1">Skill Expert: Wisdom</content>
+	<content contentuid="heb9c57dfg3c27g46c7gb027g1b1ef1cdd113" version="1">Skill Expert: Charisma</content>
+
+	<!-- Telekinetic -->
+	<content contentuid="h266f8140gb9a1g45e4ga641g1761576ca0a2" version="1">Telekinetic: Intelligence</content>
+	<content contentuid="h0c40c380g6ba6g41dbg9e54g12c3fa21ee9b" version="1">Telekinetic: Wisdom</content>
+	<content contentuid="h23867075g0178g4a55g8486g157fc01444ab" version="1">Telekinetic: Charisma</content>
+
+	<!-- Descriptions -->
+	<content contentuid="h301a8546g1f35g4c4dg8820ga1350f84b039" version="1">Your Strength is increased by [1].</content>
+	<content contentuid="h4a8f5345g5a87g468cgacffgf2942b470620" version="1">Your Dexterity is increased by [1].</content>
+	<content contentuid="h0e0198f7gdfccg4cd1gac35g7fd827c17ec7" version="1">Your Constitution is increased by [1].</content>
+	<content contentuid="hb431f98cg1474g4e7ega93ag31019d73575c" version="1">Your Intelligence is increased by [1].</content>
+	<content contentuid="h1b562367g80feg435fg987dgdfa2c2a98a9f" version="1">Your Wisdom is increased by [1].</content>
+	<content contentuid="h30296038g0df2g4e89ga7afgb61d5fd8637e" version="1">Your Charisma is increased by [1].</content>
+
+<!-- Other Edits -->
+
+	<!-- Deadly Alacrity -->
+	<content contentuid="h548afa07gb72cg479fg82d6g715e83d3a5d8" version="1">Increase an ability other than &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; by 1. The number you need to roll for a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 1. When you hit a target with an attack, you regain 1m/3ft of &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;. If you &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt; or strike a killing blow, you regain 3m/10ft instead.</content>
+	<content contentuid="h1c2fcf2ag6488g45a2gb24cg40887145c07e" version="1">The number you need to roll for a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 1. When you hit a target with an attack, you regain [1] of &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;. If you &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt; or strike a killing blow, you regain [2] instead.</content>
+
+	<!-- Light Armor Master -->
+	<content contentuid="h1bb7f446g3ef8g40d4g9066g0595abb81be8" version="1">Light Armour Master</content>
+	<content contentuid="he8c64b3eg90c0g41c5gb0f2gbcd2b398d823" version="1">When wearing Light Armour, your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance increase by 3m, and &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reactions&lt;/LSTag&gt; against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h8d336c25g1e49g4016g87a0g18004b58bd2f" version="1">When wearing Light Armour, your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance increase by [1], and &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reactions&lt;/LSTag&gt; against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+
+	<!-- Thief's Apprentice -->
+	<content contentuid="hf1f285a6g96d6g4dd8ga0c5g8878d677d604" version="1">Grants &lt;LSTag Type="Spell" Tooltip="Shout_Hide_BonusAction"&gt;Cunning Action: Hide&lt;/LSTag&gt;. When attacking from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisibility&lt;/LSTag&gt;, or after scoring a killing blow, you gain an additional &lt;LSTag Type="Image" Info="TutorialBonusActionFilter"/&gt; &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; on your next turn.&lt;br&gt;&lt;br&gt;This does not function if you already have an additional &lt;LSTag Type="Image" Info="TutorialBonusActionFilter"/&gt; &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; from another source.</content>
+	<content contentuid="h5b96e7b7gaba7g4d5egaf0eg63541e600bfc" version="1">Grants &lt;LSTag Type="Spell" Tooltip="Shout_Hide_BonusAction"&gt;Cunning Action: Hide&lt;/LSTag&gt;. When attacking from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisibility&lt;/LSTag&gt;, or after scoring a killing blow, you gain an additional &lt;LSTag Type="Image" Info="TutorialBonusActionFilter"/&gt; &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; on your next turn.&lt;br&gt;&lt;br&gt;This does not function if you already have an additional &lt;LSTag Type="Image" Info="TutorialBonusActionFilter"/&gt; &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; from another source.</content>
+
+	<!-- War Magic -->
+	<content contentuid="h955cd8b0g4029g44e1ga644g694cc0f80c06" version="1">After casting a spell or cantrip, you can make a basic attack as a &lt;LSTag Type="Image" Info="TutorialBonusActionFilter"/&gt; &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;. This attack deals half damage.&lt;br&gt;&lt;br&gt;Starting at level 5, it deals full damage and you are no longer limited to basic attacks.</content>
+	<content contentuid="h4c622747gd6a5g4c71gb15egbc6c13d6ed5b" version="1">After casting a spell or cantrip, you can make a basic attack as a &lt;LSTag Type="Image" Info="TutorialBonusActionFilter"/&gt; &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;. This attack deals half damage.&lt;br&gt;&lt;br&gt;Starting at level 5, you can make any attack as an extra attack and it deals full damage.</content>
+</contentList>

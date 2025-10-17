@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="322"/>
+		<region id="Feats">
+			<node id="root">
+				<children>
+					<node id="Feat">
+						<attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+						<attribute id="Name" type="FixedString" value="PlanarAgent"/>
+						<!-- <attribute id="Selectors" type="LSString" value="SelectAbilities(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,1,1,FeatASI);SelectPassives(87e8de8d-64a9-4bc6-b62f-954b56412f41,1)"/> -->
+						<attribute id="Selectors" type="LSString" value="SelectPassives(0a834890-4734-44ff-874a-aabdc5b9b643,1);SelectPassives(87e8de8d-64a9-4bc6-b62f-954b56412f41,1)"/>
+						<attribute id="UUID" type="guid" value="818f08eb-969c-4661-86a0-ddb1b4d844d4"/>
+					</node>
+				</children>
+			</node>
+	</region>
+</save>
