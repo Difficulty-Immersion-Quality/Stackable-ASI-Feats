@@ -1,66 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
-	-- Actor
+	<!-- Actor -->
 	<content contentuid="h164e9414gba49g4bc9gb8dag823bbe8849af" version="1">Your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1. Your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; is also doubled for Deception and Performance &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="hc318080ag30dfg48beg8202g73d183fcaa0f" version="1">You have become a true thespian. Your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by [1]. Your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; is doubled for Deception and Performance &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
 
-
-	-- Athlete
+	<!-- Athlete -->
 	<content contentuid="hb0294ccegb0e4g4db5gad8cgc4c160628fef" version="1">When you are Prone, standing up uses significantly less movement. Your &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance also increases by 50%. &lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.</content>
 	<content contentuid="he971c481g02e1g4fcag8221g934b55cf94be" version="1">When you are &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, standing up uses only [1] of your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;. Your &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance is increased by 50%.</content>
 	<content contentuid="hb4fa3f4eg6569g4ee3g83aag1950b06c40f3" version="1">Athlete: Strength</content>
 	<content contentuid="h6d5d9846g2fafg4d64ga086gad1d2b694103" version="1">Athlete: Dexterity</content>
 
-
-	-- Durable
+	<!-- Durable -->
 	<content contentuid="h3434eba2g0663g4a7dgad1cg4b22c935b807" version="1">Your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; increases by 1. You regain full &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; each time you take a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="hc61ac7a2ga9dbg4d97g93e6g908c937d6f2d" version="1">You regain full &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; when you take a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;. Your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; is increased by [1].</content>
 
-
-	-- Heavily Armoured
+	<!-- Heavily Armoured -->
 	<content contentuid="hf0055c48g94ddg4e39g99ffg5bc850eeb596" version="1">You gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Heavy Armour and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; increases by 1.</content>
 	<content contentuid="h07e53b1fgf318g4509gab84gc41b9a1816d0" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Heavy Armour and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; is increased by [1].</content>
 
-
-	-- Heavy Armour Master
+	<!-- Heavy Armour Master -->
 	<content contentuid="h044d6cacg88d2g4c6cga7d2gba1847febbdd" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; increases by 1. Incoming damage from non-magical attacks also decreases by 3 while you're wearing heavy armour.</content>
 	<content contentuid="h0af8660cg2aecg4aeegb00dgc5fbb27084f8" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; is increased by [1]. Incoming damage from non-magical attacks is reduced by [3] while you're wearing heavy armour.</content>
 
-
-	-- Lightly Armoured
+	<!-- Lightly Armoured -->
 	<content contentuid="ha952c946gada8g4088gbbf5gc39f36716add" version="1">You gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light Armour and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.</content>
 	<content contentuid="hc961c61eged64g4cdegac78gead899f4c561" version="1">Lightly Armoured: Strength</content>
 	<content contentuid="hd4931d2fgadcbg47edga3e7ga9ebde78159f" version="1">Lightly Armoured: Dexterity</content>
 
-
-	-- Moderately Armoured
+	<!-- Moderately Armoured -->
 	<content contentuid="hfd07af69gfa16g4bcfg9a69gaf190cde8651" version="1">You gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour and shields, and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.</content>
 	<content contentuid="hc04ddde6gcf4bg499dga9a5gd7fe6f713135" version="1">Moderately Armoured: Strength</content>
 	<content contentuid="he3f16e43g6666g44eeg89e8ge2790e9930ad" version="1">Moderately Armoured: Dexterity</content>
 
-
-	-- Performer
+	<!-- Performer -->
 	<content contentuid="h4620e53fg8666g4f7agbef5g5fcc6c5dff88" version="1">You gain &lt;LSTag Tooltip="MusicalInstrumentProficiency"&gt;Musical Instrument Proficiency&lt;/LSTag&gt;, and your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.</content>
 
-
-	-- Tavern Brawler
+	<!-- Tavern Brawler -->
 	<content contentuid="hcf812bb0ga2b3g4adcg9720g1aff527e4061" version="1">When you make an unarmed attack, use an improvised weapon, or throw something, your Strength &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; is added to the damage and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; increases by 1.</content>
 	<content contentuid="h2ed58cefgde7fg4da4ga6c6g7a661417727f" version="1">When you make an unarmed attack, use an improvised weapon, or throw something, your Strength &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; is added to the damage and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="h35415ceegde76g4855gada0g2cc72fa2971c" version="1">Tavern Brawler: Strength</content>
 	<content contentuid="hefbbed5ega098g4baaga190g0697d83b64e3" version="1">Tavern Brawler: Constitution</content>
 
-
-	-- Weapon Master
+	<!-- Weapon Master -->
 	<content contentuid="h21934d01g9001g4275gaafegcff1938c27b3" version="1">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with four weapons of your choice, and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.</content>
 	<content contentuid="h2e9fed08gaa1cg4030g8e52g8277df34d453" version="1">Weapon Master: Strength</content>
 	<content contentuid="h64639bf3g722ag4506g90dag74682043bdb2" version="1">Weapon Master: Dexterity</content>
 
-
-	-- Resilient
+	<!-- Resilient -->
 	<content contentuid="h7fc2132fg7937g4491g8ae1g69387619868b" version="1">You increase an &lt;LSTag Tooltip="Abilities"&gt;Ability&lt;/LSTag&gt; by 1, and gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in that Ability's &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
-
-	-- Shared
+	<!-- Shared -->
 	<content contentuid="hf51dd462gb417g4b3bg9abegb841dfb988a7" version="1">Increase your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; by [1].</content>
 	<content contentuid="h1c4db49egc213g4be2g843dga5c4a9b3389c" version="1">Increase your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; by [1].</content>
 	<content contentuid="hb170185dgfe7ag40ecg8422g0b7f140eef9a" version="1">Increase your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; by [1].</content>
