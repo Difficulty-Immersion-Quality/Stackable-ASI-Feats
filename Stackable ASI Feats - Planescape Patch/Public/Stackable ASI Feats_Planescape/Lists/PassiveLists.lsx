@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="0"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Skill Expert ASI Passives"/>
+                    <attribute id="Passives" type="LSString" value="CHT_PlanarAgent_Strength,CHT_PlanarAgent_Dexterity,CHT_PlanarAgent_Constitution,CHT_PlanarAgent_Intelligence,CHT_PlanarAgent_Wisdom,CHT_PlanarAgent_Charisma"/>
+                    <attribute id="UUID" type="guid" value="0a834890-4734-44ff-874a-aabdc5b9b643"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

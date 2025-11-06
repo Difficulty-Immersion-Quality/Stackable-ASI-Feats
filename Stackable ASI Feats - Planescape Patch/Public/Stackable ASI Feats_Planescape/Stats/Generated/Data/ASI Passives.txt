@@ -1,0 +1,67 @@
+// ==================================== Planar Agent ====================================
+
+new entry "CHT_PlanarAgent_Strength"
+type "PassiveData"
+// Planar Agent: Strength
+data "DisplayName" "h4edb1a2ag4415g4af3g9eedge8c528b9b12b;1"
+// Your Strength is increased by [1].
+data "Description" "h344eb3efg5cdcg47eag8377g1d94031dd1fd;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "CHT_PlanarAgent_Dexterity"
+type "PassiveData"
+// Planar Agent: Dexterity
+data "DisplayName" "h268812d4gfd8ag40d6g86d1ge5e0901a7a16;1"
+// Your Dexterity is increased by [1].
+data "Description" "he5caff5ag8df7g422cg92aegadcd2d0c1e08;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
+
+new entry "CHT_PlanarAgent_Constitution"
+type "PassiveData"
+// Planar Agent: Constitution
+data "DisplayName" "hfc739294gae9fg4b33g8b0eg6db9d709996d;1"
+// Your Constitution is increased by [1].
+data "Description" "h0571b0bfgc7e2g4453g98f2gd3dd8064a4ce"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Constitution, 1)"
+
+new entry "CHT_PlanarAgent_Intelligence"
+type "PassiveData"
+// Planar Agent: Intelligence
+data "DisplayName" "h226a6c80g65a6g46abg97ebgd76fe0857d39;1"
+// Your Intelligence increased by [1].
+data "Description" "h171016e4g184dg49a7g89cagc09ec62f2861"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "CHT_PlanarAgent_Wisdom"
+type "PassiveData"
+// Planar Agent: Wisdom
+data "DisplayName" "h171016e4g184dg49a7g89cagc09ec62f2861;1"
+// Your Wisdom increased by [1].
+data "Description" "h9340ba42ge8ceg48afgbaf5gce4630b0ba46"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "CHT_PlanarAgent_Charisma"
+type "PassiveData"
+// Planar Agent: Charisma
+data "DisplayName" "h785749b4g0c4dg4dcag917fg205b2e38af2a;1"
+// Your Charisma increased by [1].
+data "Description" "h5420a21bgdd63g4b46gafacg4b4519aba688"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"
