@@ -453,7 +453,7 @@ type "PassiveData"
 // Telekinetic: Wisdom
 data "DisplayName" "h0c40c380g6ba6g41dbg9e54g12c3fa21ee9b;1"
 // Your Wisdom is increased by [1].
-data "Description" "h23867075g0178g4a55g8486g157fc01444ab;1"
+data "Description" "h1b562367g80feg435fg987dgdfa2c2a98a9f;1"
 data "DescriptionParams" "1"
 data "Icon" "GenericIcon_Intent_Buff"
 data "Properties" "IsHidden"
@@ -461,8 +461,8 @@ data "Boosts" "Ability(Wisdom, 1)"
 
 new entry "SYR_Feat_Telekinetic_Charisma"
 type "PassiveData"
-// Shadow Touched: Charisma
-data "DisplayName" "XXX;1"
+// Telekinetic: Charisma
+data "DisplayName" "h23867075g0178g4a55g8486g157fc01444ab;1"
 // Your Charisma increased by [1].
 data "Description" "h30296038g0df2g4e89ga7afgb61d5fd8637e"
 data "DescriptionParams" "1"
