@@ -4,6 +4,7 @@
 		<region id="Feats">
 				<node id="root">
 						<children>
+								<!--Added Feats-->
 								<node id="Feat">
 										<attribute id="Name" type="FixedString" value="SYR_Alchemist"/>
 										<attribute id="PassivesAdded" type="LSString" value="SYR_Feat_Alchemist_Passive;SYR_Feat_Alchemist_Throw_Unlock"/>
@@ -19,6 +20,7 @@
 										<attribute id="UUID" type="guid" value="173e3489-1346-42d5-b5d9-a147443418a5"/>
 								</node>
 								<node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
 										<attribute id="Name" type="FixedString" value="SYR_EldritchAdept"/>
 										<!-- <attribute id="Selectors" type="LSString" value="SelectAbilities(6d64a5f2-c26a-4af9-8957-7370ff51f0de,1,1);SelectPassives(ae25190d-8513-40aa-9e7a-d2d57202b6a3,1,SYR_EldritchAdept)"/> -->
 										<attribute id="Selectors" type="LSString" value="SelectPassives(210b63b8-005c-448f-be4c-3021ea0b0ec1,1);SelectPassives(ae25190d-8513-40aa-9e7a-d2d57202b6a3,1,SYR_EldritchAdept)"/>
