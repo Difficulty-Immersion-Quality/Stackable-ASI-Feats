@@ -57,7 +57,7 @@
                 <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="Skill Expert ASI Passives"/>
                     <attribute id="Passives" type="LSString" value="SYR_Feat_SkillExpert_Strength,SYR_Feat_SkillExpert_Dexterity,SYR_Feat_SkillExpert_Constitution,SYR_Feat_SkillExpert_Intelligence,SYR_Feat_SkillExpert_Wisdom,SYR_Feat_SkillExpert_Charisma"/>
-                    <attribute id="UUID" type="guid" value="e3251798-871d-4f74-a2ed-bc81b153e87e"/>
+                    <attribute id="UUID" type="guid" value="480aee33-e4ae-4bf0-baf5-95241af21a9c"/>
                 </node>
                 <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="Telekinetic ASI Passives"/>

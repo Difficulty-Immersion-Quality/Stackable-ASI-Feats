@@ -86,7 +86,7 @@
 										<attribute id="Name" type="FixedString" value="SYR_SkillExpert"/>
 										<attribute id="PassivesAdded" type="LSString" value="SYR_Feat_SkillExpert_Passive"/>
 										<!-- <attribute id="Selectors" type="LSString" value="SelectAbilities(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,1,1,FeatASI);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,1,SYR_SkilledSkills);SelectPassives(00474869-4f7b-44c3-adb0-44ccb8d515ca,1,SYR_SkillExpert)"/> -->
-										<attribute id="Selectors" type="LSString" value="SelectPassives(be3251798-871d-4f74-a2ed-bc81b153e87e,1);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,1,SYR_SkilledSkills);SelectPassives(00474869-4f7b-44c3-adb0-44ccb8d515ca,1,SYR_SkillExpert)"/>
+										<attribute id="Selectors" type="LSString" value="SelectPassives(480aee33-e4ae-4bf0-baf5-95241af21a9c,1);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,1,SYR_SkilledSkills);SelectPassives(00474869-4f7b-44c3-adb0-44ccb8d515ca,1,SYR_SkillExpert)"/>
 										<attribute id="UUID" type="guid" value="bacbe48a-4119-44c5-b30d-2019d18b1534"/>
 								</node>
 								<!-- <node id="Feat">
